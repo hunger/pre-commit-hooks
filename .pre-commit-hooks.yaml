@@ -1,0 +1,6 @@
+- id: no-debug
+  name: No debug output
+  description: "Prevents debug output from showing up in production"
+  language: pygrep
+  types: [file]
+  entry: '\b(cout\s*<<|cerr\s*<<|console\.log\s*\(|\beprintln!\s*\(|\bprintln!\s*\(|dbg!\s*\(|print\s*\()'
