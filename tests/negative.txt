@@ -1,0 +1,6 @@
+consoleLlog("This should NOT show up!");
+errprintln!("This should NOT show up");
+do NOT print this!
+foocerr<<("This should NOT show up");
+foodebug_log!("This should NOT show up");
+print("This is the last and only line that should show in test output")
